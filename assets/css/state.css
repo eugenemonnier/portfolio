@@ -49,3 +49,24 @@ form input[type="text"]:focus,
     form ::-moz-focus-inner {
       border: 0;
     }
+
+/* Icons */
+
+.icon:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 1.25em;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+    
+/* Header*/
+
+#header .icons a:hover {
+  color: #fff;
+}
+
